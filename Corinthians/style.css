@@ -1,5 +1,5 @@
 header{
-    font-size: 175px;
+    font-size: 225px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
     background-color: rgba(0, 0, 0, 0.35);
@@ -21,7 +21,29 @@ table, td, tr{
     border: 3px solid rgba(46, 46, 46, 0.664);
     border-collapse: collapse;
     padding: 7px;
+}
 
+caption{
+    text-align: center;
+}
+
+.Tabelas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Primeiro{
+    color: goldenrod;
+}
+
+.Segundo{
+    color: silver;
+}
+
+.Terceiro{
+    color: #CD7F32;
 }
 
 img{
@@ -71,6 +93,13 @@ nav{
 
 a{
     color: red;
+}
+
+.Parte1, .Parte2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .Nome{
