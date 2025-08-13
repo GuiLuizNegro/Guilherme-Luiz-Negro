@@ -7,7 +7,7 @@ header{
 }
 
 body{
-    background-image: url(Time.jpg);
+    background-image: url(Img/Time.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-size:contain;
@@ -21,6 +21,7 @@ table, td, tr{
     border: 3px solid rgba(46, 46, 46, 0.664);
     border-collapse: collapse;
     padding: 7px;
+    background-color: rgba(0, 0, 0, 0.144);
 }
 
 caption{
@@ -109,4 +110,8 @@ a{
 
 .Fonte{
     color: white;
+}
+
+iframe { 
+    align-items: center;
 }
